@@ -91,7 +91,7 @@ gap: 40px;
     
 }
 .header-list-item-link-color::after {
-  
+  content: "";
   
   display: block;
   position: absolute;
