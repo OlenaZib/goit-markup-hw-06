@@ -219,19 +219,7 @@ position: absolute;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.icon-section-two{
- align-items: center;
-  justify-content: center;
-  width: 264px;
-  height: 112px;
-  border-radius: 4px;
-  border: 1px solid #8e8f99;
-  background-color: #f4f4fd;
-  fill: #2e2f42;
-  padding: 24px 100px;
-  margin-bottom: 8px;
-  display: flex;
-}
+
 
 .section-two {
   padding: 120px 0;
@@ -263,6 +251,14 @@ letter-spacing: 0.02em;
   background-color: #f4f4fd; 
   border-radius: 4px;
   margin-bottom: 8px;
+  width: 264px;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  background-color: #f4f4fd;
+  fill: #2e2f42;
+  padding: 24px 100px;
+  
+  
 }
 /* ============================Section three=================================== */
 
