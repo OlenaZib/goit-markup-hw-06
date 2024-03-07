@@ -236,9 +236,7 @@ position: absolute;
 .section-two {
   padding: 120px 0;
 }
-.icon-section-two {
-  
-}
+
 .section-two-title {
   color: #2E2F42;
 font-size: 20px;
@@ -247,9 +245,8 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 margin-bottom: 8px;
 
-
-
 }
+
 .section-two-text {
 color: #434455;
 font-size: 16px;
