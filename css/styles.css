@@ -43,7 +43,9 @@ h1,h2,h3,h4,h5,h6,p {
       padding: 0 15px;
     }
     /* ============================HEDDER STYLE=========================== */
-   
+   .backdrop {
+    display: block;
+   }
 
 
       .header-list {
@@ -67,8 +69,14 @@ h1,h2,h3,h4,h5,h6,p {
 .logo-studio {
     color: #2E2F42;
 }
+
+
+
 /* ===========================================MENU MOBILE========================= */
+
+
 @media screen and (max-width: 767px) {
+
 
  .mobile-open-menu-icon-btn{
     background-color: transparent;
@@ -210,7 +218,7 @@ color: #434455;
     width: 40px;
   height: 40px;
 }
-
+}
 
 /* =============================================== MENU MOBILE END=======================*/
    
@@ -525,7 +533,7 @@ margin-right: auto;
 
 }
 .container {
-  width: 320px;
+  max-width: 320px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -911,12 +919,13 @@ cursor: pointer;
 
 
 
-}
+
     /* ================================HEDDER  TABLET STYLE========================= */
  
 @media screen and (min-width: 768px){
     .container {
         max-width: 768px;
+
       
     }
    .mobile-menu-wrapper {
@@ -1025,16 +1034,15 @@ margin-left: 121px;
 
 .header-contacts-link {
     font-style: normal;
-    width: 119px;
-    height: 14px;
     flex-shrink: 0;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 16px;
     line-height: 1;
     letter-spacing: 0.03em;
     color: #434455;
     text-decoration: none;
     display: block;
+
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
     
@@ -1188,6 +1196,7 @@ width: 356px;
 flex-wrap: wrap;
     gap: 24px ;
     row-gap: 64px;
+    flex-direction: row;
     justify-content: center;
   }
   .section-three-title {
@@ -1270,6 +1279,7 @@ background: #fff;
 .section-four-list {
   display: flex;
  flex-wrap: wrap;
+ flex-direction: row;
  justify-content: center;
   gap: 24px;
   row-gap: 72px;
@@ -1338,6 +1348,8 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 display: inline-block; 
 margin-bottom: 16px;
+margin-left: 0;
+margin-right: 0;
 
 
 }
@@ -1362,7 +1374,7 @@ margin-bottom: 16px;
 .container-footer-logo {
   display: flex;
   flex-direction: column;
-
+margin-bottom: 0;
 }
 .logo-studio-footer {
   color:  #F4F4FD;
@@ -1372,6 +1384,7 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+justify-content: left;
 
 }
 .footer-text {
@@ -1379,7 +1392,8 @@ text-transform: uppercase;
 font-size: 16px;
 line-height: 1.5; 
 letter-spacing: 0.02em;
-max-width: 264px;
+width: 264px;
+
 }
 
 .footer-par {
@@ -1391,7 +1405,7 @@ letter-spacing: 0.02em;
 color: #FFFFFF;
 margin-bottom: 16px; 
 display: flex;
-
+justify-content: left;
 
 }
 .footer-par-list {
@@ -1431,6 +1445,7 @@ display: flex;
 .footer-container-subs {
   display: flex;
   flex-direction: column;
+
   
   }
   .footer-container-subs-text {
@@ -1442,17 +1457,18 @@ display: flex;
   color: #FFFFFF;
   display: flex;
   align-items: center;
+  justify-content: left;
  
   }
   .footer-container-login-form {
     display: flex;
-
+flex-direction: row;
     gap: 24px;
   
   }
   .footer-label-input {
     width: 264px;
-    height: 40px; 
+    height: 42px; 
     border: 1px solid #ffffff; 
     background-color: transparent; 
   font-weight: 400;
@@ -1753,10 +1769,6 @@ cursor: pointer;
 @media screen and (min-width: 1168px){
     .container {
         max-width: 1158px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 0 15px;
-      
     }
     
 
